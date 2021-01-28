@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!-- This website showcases basic web development skills, including html, scss, vanilla js and jquery -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./scss/style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="./js/index.js"></script>
+    <title>Trees!</title>
+</head>
+<body>
+    <header>
+
+        <div class="logo-container">
+
+            <a href="index.html">
+                <img src="./img/treeLogo.PNG" alt="" class="logo">
+            </a>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="./index.html" class="focus">Home</a>
+                	<ul class="dropdown-menu"> 
+                        <li><a href="#intro">Welcome</a></li> 
+                        <li><a href="#subscribe">Subscribe</a></li> 
+                        <li><a href="#quote">Quote</a></li> 
+                        <li><a href="#poll">Take our poll</a></li> 
+                    </ul> 
+                </li>
+                <!-- <li><a href="./about.html">About</a></li> -->
+                <li><a href="./blog.html">Blog</a></li>
+                <li><a href="./treeIndex.html">Tree index</a></li>
+                <!-- <li><a href="./resources">Resources</a></li> -->
+                <li><a href="./savedList.html">My saved list</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="" id="welcome">
+            <h1>Trees make the world a better place</h1>
+            <p>Trees have so many benefits, but my favourite one is the simplest one: They make us happy!</p>
+        </section>
+        <section id="intro">
+            <h1>Welcome to my website!</h1>
+            <p>I've created this space for tree enthusiasts like me.</p>
+            <p>Here you will find useful information on South African indigenous trees. You will also be able to reach out to other like-minded people through our soon to be developed forum.</p>
+        </section>
+        <section id="subscribe">
+            <h1>Don't miss out - Subscribe to our newsletter!</h1>
+            <form action="">               
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" placeholder="Your name here">
+                </div>
+                <div>
+                    <label for="name">Email</label>
+                    <input type="email" placeholder="Your email here">
+                </div>
+                <button>Subscribe!</button>               
+            </form>
+        </section>
+        <section id="quote">
+            <div class="quote-container">
+                <q>This is such a useful resource! Only wish I had discoved it sooner</q>
+                <p>- Dave, tree enthusiast</p>
+            </div>
+        </section>
+        <section id="poll">
+            <h1>Take our poll!</h1>
+            <p>What is the most important factor that's preventing you from planting more trees?</p>
+            <form action="">    
+                <div>
+                    <input type="radio" name="poll" value="money">    
+                    <label for="money">I don't have the money</label>
+                </div>
+                <div>
+                    <input type="radio" name="poll" value="time">    
+                    <label for="money">I don't have the time</label>
+                </div>
+                <div>
+                    <input type="radio" name="poll" value="space">    
+                    <label for="money">I don't have space to plant more trees</label>
+                </div>
+                <div>
+                    <input type="radio" name="poll" value="knowledge">    
+                    <label for="money">I don't know what to plant</label>
+                </div>
+                <button>See the results</button>               
+            </form>
+
+        </section>
+    </main>   
+
+</body>
+</html>

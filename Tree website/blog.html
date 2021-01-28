@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!-- This website showcases... -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./scss/style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="./js/blog.js"></script>
+    <title>Trees!</title>
+</head>
+<body>
+    <header>
+
+        <div class="logo-container">
+
+            <a href="index.html">
+                <img src="./img/treeLogo.PNG" alt="" class="logo">
+            </a>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <!-- <li><a href="./about.html">About</a></li> -->
+                <li><a href="./blog.html" class="focus">Blog</a></li>
+                <li><a href="./treeIndex.html">Tree index</a></li>
+                <!-- <li><a href="./resources">Resources</a></li> -->
+                <li><a href="./savedList.html">My saved list</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="blog-article" id="latest">
+            <h1>The best trees for Johannesburg gardens</h1>
+            <time datetime="2020-01-19 15:45">19 January 2020</time>
+            <p>Here is a selection of the best trees for your Johannesburg garden according to <a href="https://www.groundedlandscaping.co.za/top-10-trees-to-plant-in-a-small-garden/">www.groundedlandscaping.co.za</a>. The most polular trees in Johannesburg are:</p>
+            <ul>
+                <li>Lavender tree</li>
+                <li>Wild peach</li>
+                <li>False olive</li>
+                <li>Pompon tree</li>
+                <li>White pear</li>
+            </ul>
+            <div class="tree-group">
+                <div class="heading">
+                    <h2 class="tree-name">Lavender tree (Hyteropyxis natalensis)</h2>
+                    <i class="far fa-thumbs-up fa-lg" title="Like"></i>
+                    <i class="far fa-star fa-lg" title="Save for later" id ="lavender"></i>
+                </div>
+                <img src="./img/lavenderTree1.PNG" alt="" class="tree-image">
+                <p class="tree-text">The lavender tree is ideal for small gardens, but they are slow growing.</p>
+            </div>
+            <div class="tree-group">
+                <div class="heading">
+                    <h2 class="tree-name">Wild peach (Kiggelaria africana)</h2>
+                    <i class="far fa-thumbs-up fa-lg" title="Like"></i>
+                    <i class="far fa-star fa-lg" title="Save for later" id ="wild-peach"></i>
+                </div>
+                <img src="./img/wildPeach.PNG" alt="" class="tree-image">
+                <p class="tree-text">This is a semi-deciduous tree that can grow over 12 meters in ideal conditions.</p>
+            </div>
+            <div class="tree-group">
+                <div class="heading">
+                    <h2 class="tree-name">False olive (Buddleja saligna)</h2>
+                    <i class="far fa-thumbs-up fa-lg" title="Like"></i>
+                    <i class="far fa-star fa-lg" title="Save for later" id ="false-olive"></i>
+                </div>
+                <img src="./img/falseOlive.PNG" alt="" class="tree-image">
+                <p class="tree-text">This hardy indigenous tree is one of the fastest growers in Gauteng. It can grow at a pace of 1 - 1.5 meters per year.</p>
+            </div>
+            <div class="tree-group">
+                <div class="heading">
+                    <h2 class="tree-name">Pompon tree (Dais cotinifolia)</h2>
+                    <i class="far fa-thumbs-up fa-lg" title="Like"></i>
+                    <i class="far fa-star fa-lg" title="Save for later" id ="pompon"></i>
+                </div>
+                <img src="./img/pomponTree.PNG" alt="" class="tree-image">
+                <p class="tree-text">The pompon tree is a frost hardy tree that sports beautiful pink flowers in summer. It can grow up to 8 meters in ideal conditions.</p>
+            </div>
+            <div class="tree-group">
+                <div class="heading">
+                    <h2 class="tree-name">White pear (Apodytes dimidiata)</h2>
+                    <i class="far fa-thumbs-up fa-lg" title="Like"></i>
+                    <i class="far fa-star fa-lg" title="Save for later" id ="white-pear"></i>
+                </div>
+                <img src="./img/Whitepear.PNG" alt="" class="tree-image">
+                <p class="tree-text">The white pear tree has thick, dark green foliage, making it ideal as a screen tree. It is a medium pace grower. It takes about 8 years to reach a height of 6 - 8 meters.</p>
+            </div>
+
+        </section>
+       <section class="blog-comments">
+        <h2>Leave a comment</h2>
+        <textarea></textarea>
+        <button id="comment-button">Add my comment!</button>
+        <ul id="comments-list">
+            <!-- Comments will go here -->
+
+        </ul>
+       </section>
+
+
+
+
+
+
+
+    </main>
+    <script src="https://kit.fontawesome.com/ca689ff5d5.js" crossorigin="anonymous"></script>
+</body>
+</html>
